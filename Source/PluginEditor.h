@@ -14,11 +14,11 @@
 //==============================================================================
 /**
 */
-class FORMEQAudioProcessorEditor  : public juce::AudioProcessorEditor
+class FORM_EQAudioProcessorEditor  : public juce::AudioProcessorEditor
 {
 public:
-    FORMEQAudioProcessorEditor (FORMEQAudioProcessor&);
-    ~FORMEQAudioProcessorEditor() override;
+    FORM_EQAudioProcessorEditor (FORM_EQAudioProcessor&);
+    ~FORM_EQAudioProcessorEditor() override;
 
     //==============================================================================
     void paint (juce::Graphics&) override;
@@ -27,7 +27,7 @@ public:
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    FORMEQAudioProcessor& audioProcessor;
+    FORM_EQAudioProcessor& audioProcessor;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FORMEQAudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FORM_EQAudioProcessorEditor)
 };

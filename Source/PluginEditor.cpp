@@ -10,7 +10,7 @@
 #include "PluginEditor.h"
 
 //==============================================================================
-FORMEQAudioProcessorEditor::FORMEQAudioProcessorEditor (FORMEQAudioProcessor& p)
+FORM_EQAudioProcessorEditor::FORM_EQAudioProcessorEditor (FORM_EQAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
     // Make sure that before the constructor has finished, you've set the
@@ -18,12 +18,12 @@ FORMEQAudioProcessorEditor::FORMEQAudioProcessorEditor (FORMEQAudioProcessor& p)
     setSize (400, 300);
 }
 
-FORMEQAudioProcessorEditor::~FORMEQAudioProcessorEditor()
+FORM_EQAudioProcessorEditor::~FORM_EQAudioProcessorEditor()
 {
 }
 
 //==============================================================================
-void FORMEQAudioProcessorEditor::paint (juce::Graphics& g)
+void FORM_EQAudioProcessorEditor::paint (juce::Graphics& g)
 {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
@@ -33,7 +33,7 @@ void FORMEQAudioProcessorEditor::paint (juce::Graphics& g)
     g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
 }
 
-void FORMEQAudioProcessorEditor::resized()
+void FORM_EQAudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..

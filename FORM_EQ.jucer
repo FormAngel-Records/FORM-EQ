@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="d7lpFF" name="FORM EQ" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="PAHvuJ" name="FORM_EQ" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
-  <MAINGROUP id="NUPIL1" name="FORM EQ">
-    <GROUP id="{8D3DA52F-7129-E6AC-1024-782445C9C596}" name="Source">
-      <FILE id="MV3722" name="PluginProcessor.cpp" compile="1" resource="0"
+  <MAINGROUP id="zdNSzT" name="FORM_EQ">
+    <GROUP id="{DDDE038A-B6E1-8C9E-98D4-B84540634094}" name="Source">
+      <FILE id="RPNuqD" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="VFLZSX" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="sv1Wge" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
-      <FILE id="vArM8r" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="cR61ap" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="OpuqIg" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="vzwnut" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="FORM EQ"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="FORM EQ"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FORM_EQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FORM_EQ"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="../../../../../JUCE/modules"/>

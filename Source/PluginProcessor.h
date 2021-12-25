@@ -13,12 +13,12 @@
 //==============================================================================
 /**
 */
-class FORMEQAudioProcessor  : public juce::AudioProcessor
+class FORM_EQAudioProcessor  : public juce::AudioProcessor
 {
 public:
     //==============================================================================
-    FORMEQAudioProcessor();
-    ~FORMEQAudioProcessor() override;
+    FORM_EQAudioProcessor();
+    ~FORM_EQAudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -55,5 +55,5 @@ public:
 
 private:
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FORMEQAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FORM_EQAudioProcessor)
 };
